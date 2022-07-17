@@ -1,0 +1,197 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #272829;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #808e9b;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;	
+	transition: all ease-in-out 0.5s;
+	z-index: 999;
+	transition: all 0.5s;
+	padding: 0 30px;
+	background-color: #1e272e;
+	overflow-y: auto;
+	color: #fff;
+	width: 350px;
+}
+
+#header .profile-details img {
+  margin: 30px auto;
+  display: block;
+  width: 200px;
+  border: 2px dashed #fff;	
+}
+
+#header .profile-details h2 {
+	margin: 0;
+	padding: 0;
+	font-weight: 650;
+	font-size: 30px;
+	font-family: "Montserrat", sans-serif;
+	text-align-last: center;
+	-moz-text-align-last: center;
+	-webkit-text-align-last: center;
+}
+
+#main {
+	margin-left: 350px;
+}
+
+@media (max-width: 1199px) {
+	#header {
+		left: -350px;
+	}
+
+	#main {
+		margin-left: 0;
+	}
+}
+
+/* Sidebar Navigation */
+.nav-menu {
+	padding: 5px 0 0 0;
+}
+.nav-menu ul {
+	margin: 0;
+	width: 100%;
+	padding: 0;
+	list-style: none;
+}
+
+.nav-menu > ul > li {
+	position: relative;
+	white-space: nowrap;
+}
+.nav-menu a, .nav-menu a:focus {
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding: 7px 15px;
+	margin-bottom: 0px;
+	transition: 0.4s;
+	font-size: 18px;
+}
+
+.nav-menu a i, .nav-menu a:focus i {
+	font-size: 25px;
+	padding-right: 10px;
+	color: #485460;
+}
+
+.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+	color: #000;
+	background-color: #d2dae2;
+}
+
+.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
+	color: #808e9b;
+	/*color: #000;*/
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/homepage/bg.jpg") top center;
+  background-size: cover;
+}
+
+/* Body */
+section {
+  padding: 30px 0;
+  overflow: hidden;
+}
+/*
+.section-bg {
+  background: #f5f8fd;
+}*/
+
+.section-title-body {
+  padding-bottom: 30px;
+}
+
+.section-title-body h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+
+.about .content h3 {
+	font-weight: 700;
+	font-size: 24px;
+	color: #173b6c;
+}
+.about .content ul {
+	list-style: none;
+	padding: 0;
+}
+
+.about .content ul li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.about .content ul strong {
+	margin-right: 15px;
+}
+
+.about .content ul i {
+	font-size: 20px;
+	margin-right: 10px;
+	color: #ef5777;
+	line-height: 0;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.skills .progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
+}
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #149ddd;
+}
