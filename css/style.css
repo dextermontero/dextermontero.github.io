@@ -104,23 +104,24 @@ h1, h2, h3, h4, h5, h6 {
 	color: #808e9b;
 	/*color: #000;*/
 }
-
+/*
 .home {
   width: 100%;
   height: 100vh;
   background: url("../img/homepage/bg.jpg") top center;
   background-size: cover;
 }
-
+*/
 /* Body */
 section {
   padding: 30px 0;
   overflow: hidden;
 }
-/*
+
+
 .section-bg {
   background: #f5f8fd;
-}*/
+}
 
 .section-title-body {
   padding-bottom: 30px;
@@ -135,36 +136,98 @@ section {
   color: #173b6c;
 }
 
-.about .content h3 {
+.home .content h3 {
 	font-weight: 700;
 	font-size: 24px;
 	color: #173b6c;
 }
-.about .content ul {
+
+.home .content ul {
 	list-style: none;
 	padding: 0;
 }
 
-.about .content ul li {
+.home .content ul li {
 	display: flex;
 	align-items: center;
 	margin-bottom: 25px;
 }
 
-.about .content ul strong {
+.home .content a {
+	text-decoration: none;
+	color: #000;
+}
+
+.home .content a:hover {
+	color: blue;
+	text-decoration: underline;
+	
+}
+
+
+.home .content ul strong {
 	margin-right: 15px;
 }
 
-.about .content ul i {
+.home .content ul i {
 	font-size: 20px;
 	margin-right: 10px;
 	color: #ef5777;
 	line-height: 0;
 }
 
-.about .content p:last-child {
+.home .content p:last-child {
   margin-bottom: 0;
 }
+
+/*--------------------------------------------------------------
+# Facts
+--------------------------------------------------------------*/
+.facts {
+  padding-bottom: 30px;
+}
+.facts .count-box {
+  padding: 30px;
+  width: 100%;
+}
+.facts .count-box i {
+  display: block;
+  font-size: 44px;
+  color: #149ddd;
+  float: left;
+  line-height: 0;
+}
+.facts .count-box span {
+  font-size: 48px;
+  line-height: 40px;
+  display: block;
+  font-weight: 700;
+  color: #050d18;
+  margin-left: 60px;
+}
+.facts .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 60px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #122f57;
+}
+.facts .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #122f57;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+.facts .count-box a:hover {
+  color: #1f5297;
+}
+
+
+
+
 
 .skills .progress {
   height: 60px;
