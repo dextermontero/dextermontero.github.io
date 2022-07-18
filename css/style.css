@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Body */
 section {
-  padding: 5px 10px;
+  padding: 15px 0;
   overflow: hidden;
 }
 
@@ -123,8 +123,6 @@ section {
 .section-title-body h2 {
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
   position: relative;
   color: #173b6c;
 }
@@ -172,6 +170,41 @@ section {
   margin-bottom: 0;
 }
 
+.home .content .resume-content {
+	text-align: center;
+}
+
+.home .content .resume-content p{
+	margin-bottom: 40px;
+	text-align: justify;
+	text-indent: 30px;
+}
+
+.home .content .resume-content a {
+	text-decoration: none;
+	padding: 20px 50px;
+	background-color: #194a50;
+	font-size: 18px;
+	color: #fff;
+}
+
+.home .content .resume-content a:hover {
+	text-decoration: none;
+	padding: 20px 50px;
+	border: 1px solid #194a50;
+	background-color: #fff;
+	font-size: 18px;
+	color: #194a50;
+}
+
+@media (max-width: 1199px) {
+	.home .content .resume-content {
+		padding-bottom: 100px;
+	}
+}
+
+
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -217,6 +250,9 @@ section {
   color: #1f5297;
 }
 
+.skills  {
+  margin-bottom: 60px;
+}
 
 .skills .progress {
   height: 60px;
@@ -224,6 +260,7 @@ section {
   background: none;
   border-radius: 0;
 }
+
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
