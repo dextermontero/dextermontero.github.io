@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	bottom: 0;	
 	transition: all ease-in-out 0.5s;
-	z-index: 999;
+	z-index: 9997;
 	transition: all 0.5s;
 	padding: 0 30px;
 	background-color: #1e272e;
@@ -261,7 +261,7 @@ section {
 	left: 0;
 	bottom: 0;
 	width: 350px;
-	z-index: 99999;
+	z-index: 9999;
 	background: #040b14;
 }
 #footer .copyright {
