@@ -56,3 +56,19 @@ window.addEventListener('load', () => {
 		mirror: false
 	})
 });
+
+$(document).ready(function(){
+
+    $('#download_cv').click(function(e){
+        e.preventDefault();
+        alert('Download CV is under development');
+    })
+    $('#filter_btn').click(function(e){
+        e.preventDefault();
+        alert('Filtering is under development');
+    })
+    $('#more_projects').click(function(e){
+        e.preventDefault();
+        alert('View More Projects is under development');
+    });
+})
