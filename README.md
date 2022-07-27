@@ -2,6 +2,6 @@
 # Visit : https://dextermontero.github.io/
 
 
-Credits
-Photo of Simon Abrams
+Credits<br>
+Photo of Simon Abrams<br>
 https://unsplash.com/photos/k_T9Zj3SE8k
