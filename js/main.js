@@ -67,8 +67,4 @@ $(document).ready(function(){
         e.preventDefault();
         alert('Filtering is under development');
     })
-    $('#more_projects').click(function(e){
-        e.preventDefault();
-        alert('View More Projects is under development');
-    });
 })
