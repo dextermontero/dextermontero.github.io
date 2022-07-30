@@ -63,8 +63,21 @@ $(document).ready(function(){
         e.preventDefault();
         alert('Download CV is under development');
     })
-    $('#filter_btn').click(function(e){
-        e.preventDefault();
-        alert('Filtering is under development');
-    })
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+
+        if(value == "all") {
+            $('.filter').show('1000');
+        }else{
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+        }
+    });
+
+    if ($(".filter-button").removeClass("active")) {
+        $(this).removeClass("active");
+    }
+
+    $(this).addClass("active");  
 })

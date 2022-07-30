@@ -43,122 +43,71 @@
                         <span class="underline font-bold text-4xl uppercase">Projects</span>
                     </div>
                     <div class="mb-5 lg:mb-10 text-center" id="filter_btn">
-                        <button class="bg-gray-700 p-3 w-20 rounded-full text-white hover:bg-white hover:text-gray-600 hover:border-solid border-2 hover:border-gray-500 lg:-mt-10">All</button>
-                        <button class="bg-gray-700 p-3 w-20 rounded-full text-white hover:bg-white hover:text-gray-600 hover:border-solid border-2 hover:border-gray-500 lg:-mt-10">App</button>
-                        <button class="bg-gray-700 p-3 w-20 rounded-full text-white hover:bg-white hover:text-gray-600 hover:border-solid border-2 hover:border-gray-500 lg:-mt-10">Card</button>
-                        <button class="bg-gray-700 p-3 w-20 rounded-full text-white hover:bg-white hover:text-gray-600 hover:border-solid border-2 hover:border-gray-500 lg:-mt-10">Web</button>
+                        <button class="bg-gray-700 p-3 w-20 rounded-full text-white hover:bg-white hover:text-gray-600 hover:border-solid border-2 hover:border-gray-500 lg:-mt-10 filter-button" data-filter="all">All</button>
+                        <button class="bg-gray-700 p-3 w-20 rounded-full text-white hover:bg-white hover:text-gray-600 hover:border-solid border-2 hover:border-gray-500 lg:-mt-10 filter-button" data-filter="web">Web</button>
+                        <button class="bg-gray-700 p-3 w-20 rounded-full text-white hover:bg-white hover:text-gray-600 hover:border-solid border-2 hover:border-gray-500 lg:-mt-10 filter-button" data-filter="msnet">.Net</button>
+                        <button class="bg-gray-700 p-3 w-20 rounded-full text-white hover:bg-white hover:text-gray-600 hover:border-solid border-2 hover:border-gray-500 lg:-mt-10 filter-button" data-filter="arduino">Arduino</button>
                     </div>
                     <div class="container mx-auto">
-                        <div class="grid lg:grid-flow-col gap-8 auto-cols-max place-items-center">
+                        <div class="grid lg:grid-flow-col gap-2 auto-cols-max place-items-center">
                             <!--Row 1-->
-                            <div class="max-w-lg bg-white p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up">
-                                <a href="#">
-                                    <img class="mb-2 rounded-t-lg h-48 w-full" src="../img/projects/sample1.png" alt="product image" />
-                                </a>
-                                <div class="px-5 pb-2">
-                                    <span><h5 class="text-1xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Sample 1 Description<br>Lorem ipsum dolor sit amet. Eos itaque cumque sit ducimus nemo in laudantium architecto ut blanditiis omnis non voluptas ipsa. Sit vero placeat rem earum autem quo commodi voluptas.</h5></span>
+                            <div class="max-w-lg bg-white mr-2 p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 filter arduino" data-aos="flip-up">
+                                <img class="mb-1 rounded-t-lg h-48 w-full" src="../img/projects/sample1.png" alt="product image" />
+                                <div class="px-3 pb-2">
+                                    <div class="py-2">
+                                        <span class="bg-blue-100 text-blue-900 text-xs font-semibold m-1 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 uppercase">Arduino</span>
+                                    </div>
+                                    <hr/>
+                                    <span><h5 class="text-2xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Blind Stick Navigation Prototype</h5></span>
+                                    &bullet;  <span class="text-gray-600">Freelance</span>
                                 </div>
                             </div>
-                            <div class="max-w-lg bg-white p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up">
-                                <a href="#">
-                                    <img class="mb-2 rounded-t-lg h-48 w-full" src="../img/projects/sample2.png" alt="product image" />
-                                </a>
-                                <div class="px-5 pb-2">
-                                    <span><h5 class="text-1xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Sample 2 Description<br>Lorem ipsum dolor sit amet. Eos itaque cumque sit ducimus nemo in laudantium architecto ut blanditiis omnis non voluptas ipsa. Sit vero placeat rem earum autem quo commodi voluptas.</h5></span>
+                            <div class="max-w-lg bg-white mr-2 p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 filter msnet" data-aos="flip-up">
+                                <img class="mb-1 rounded-t-lg h-48 w-full" src="../img/projects/sample1.png" alt="product image" />
+                                <div class="px-3 pb-2">
+                                    <div class="py-2">
+                                        <span class="bg-blue-100 text-blue-900 text-xs font-semibold m-1 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 uppercase">Visual Basic</span>
+                                        <span class="bg-blue-100 text-blue-900 text-xs font-semibold m-1 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 uppercase">MySQL</span>
+                                    </div>
+                                    <hr/>
+                                    <span><h5 class="text-2xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Administrator Management</h5></span>
+                                    &bullet;  <span class="text-gray-600">Academic Project</span>
                                 </div>
                             </div>
-                            <div class="max-w-lg bg-white p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up">
-                                <a href="#">
-                                    <img class="mb-2 rounded-t-lg h-48 w-full" src="../img/projects/sample3.png" alt="product image" />
-                                </a>
-                                <div class="px-5 pb-2">
-                                    <span><h5 class="text-1xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Sample 3 Description<br>Lorem ipsum dolor sit amet. Eos itaque cumque sit ducimus nemo in laudantium architecto ut blanditiis omnis non voluptas ipsa. Sit vero placeat rem earum autem quo commodi voluptas.</h5></span>
+                            <div class="max-w-lg bg-white mr-2 p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 filter msnet" data-aos="flip-up">
+                                <img class="mb-1 rounded-t-lg h-48 w-full" src="../img/projects/sample1.png" alt="product image" />
+                                <div class="px-3 pb-2">
+                                    <div class="py-2">
+                                        <span class="bg-blue-100 text-blue-900 text-xs font-semibold m-1 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 uppercase">Visual Basic</span>
+                                        <span class="bg-blue-100 text-blue-900 text-xs font-semibold m-1 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 uppercase">MySQL</span>
+                                    </div>
+                                    <hr/>
+                                    <span><h5 class="text-2xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Attendance Management</h5></span>
+                                    &bullet;  <span class="text-gray-600">Academic Project</span>
                                 </div>
                             </div>
-                            <div class="max-w-lg bg-white p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up">
-                                <a href="#">
-                                    <img class="mb-2 rounded-t-lg h-48 w-full" src="../img/projects/sample1.png" alt="product image" />
-                                </a>
-                                <div class="px-5 pb-2">
-                                    <span><h5 class="text-1xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Sample 1 Description<br>Lorem ipsum dolor sit amet. Eos itaque cumque sit ducimus nemo in laudantium architecto ut blanditiis omnis non voluptas ipsa. Sit vero placeat rem earum autem quo commodi voluptas.</h5></span>
+                            <div class="max-w-lg bg-white mr-2 p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 filter web" data-aos="flip-up">
+                                <img class="mb-1 rounded-t-lg h-48 w-full" src="../img/projects/sample1.png" alt="product image" />
+                                <div class="px-3 pb-2">
+                                    <div class="py-2">
+                                        <span class="bg-blue-100 text-blue-900 text-xs font-semibold m-1 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 uppercase">HTML</span>
+                                        <span class="bg-blue-100 text-blue-900 text-xs font-semibold m-1 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 uppercase">CSS</span>
+                                        <span class="bg-blue-100 text-blue-900 text-xs font-semibold m-1 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 uppercase">JS</span>
+                                        <span class="bg-blue-100 text-blue-900 text-xs font-semibold m-1 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 uppercase">PHP</span>
+                                        <span class="bg-blue-100 text-blue-900 text-xs font-semibold m-1 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 uppercase">MySQL</span>
+                                        <span class="bg-blue-100 text-blue-900 text-xs font-semibold m-1 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 uppercase">Bootstrap</span>
+                                        <span class="bg-blue-100 text-blue-900 text-xs font-semibold m-1 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 uppercase">Ajax</span>
+                                    </div>
+                                    <hr/>
+                                    <span><h5 class="text-2xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Veterinarian Appointment and Pet Care System</h5></span>
+                                    &bullet;  <span class="text-gray-600">Academic Project</span>
                                 </div>
-                            </div>
-                        </div>
-                        <!--Row 2-->
-                        <div class="grid lg:grid-flow-col gap-8 auto-cols-max place-items-center mt-10">
-                            <div class="max-w-lg bg-white p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up">
-                                <a href="#">
-                                    <img class="mb-2 rounded-t-lg h-48 w-full" src="../img/projects/sample2.png" alt="product image" />
-                                </a>
-                                <div class="px-5 pb-2">
-                                    <span><h5 class="text-1xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Sample 2 Description<br>Lorem ipsum dolor sit amet. Eos itaque cumque sit ducimus nemo in laudantium architecto ut blanditiis omnis non voluptas ipsa. Sit vero placeat rem earum autem quo commodi voluptas.</h5></span>
-                                </div>
-                            </div>
-                            <div class="max-w-lg bg-white p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up">
-                                <a href="#">
-                                    <img class="mb-2 rounded-t-lg h-48 w-full" src="../img/projects/sample3.png" alt="product image" />
-                                </a>
-                                <div class="px-5 pb-2">
-                                    <span><h5 class="text-1xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Sample 3 Description<br>Lorem ipsum dolor sit amet. Eos itaque cumque sit ducimus nemo in laudantium architecto ut blanditiis omnis non voluptas ipsa. Sit vero placeat rem earum autem quo commodi voluptas.</h5></span>
-                                </div>
-                            </div>
-                            <div class="max-w-lg bg-white p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up">
-                                <a href="#">
-                                    <img class="mb-2 rounded-t-lg h-48 w-full" src="../img/projects/sample1.png" alt="product image" />
-                                </a>
-                                <div class="px-5 pb-2">
-                                    <span><h5 class="text-1xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Sample 1 Description<br>Lorem ipsum dolor sit amet. Eos itaque cumque sit ducimus nemo in laudantium architecto ut blanditiis omnis non voluptas ipsa. Sit vero placeat rem earum autem quo commodi voluptas.</h5></span>
-                                </div>
-                            </div>
-                            <div class="max-w-lg bg-white p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up">
-                                <a href="#">
-                                    <img class="mb-2 rounded-t-lg h-48 w-full" src="../img/projects/sample2.png" alt="product image" />
-                                </a>
-                                <div class="px-5 pb-2">
-                                    <span><h5 class="text-1xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Sample 2 Description<br>Lorem ipsum dolor sit amet. Eos itaque cumque sit ducimus nemo in laudantium architecto ut blanditiis omnis non voluptas ipsa. Sit vero placeat rem earum autem quo commodi voluptas.</h5></span>
-                                </div>
-                            </div>
-                        </div> 
-                        <!--Row 3-->
-                        <div class="grid lg:grid-flow-col gap-8 auto-cols-max place-items-center mt-10">
-                            <div class="max-w-lg bg-white p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up">
-                                <a href="#">
-                                    <img class="mb-2 rounded-t-lg h-48 w-full" src="../img/projects/sample2.png" alt="product image" />
-                                </a>
-                                <div class="px-5 pb-2">
-                                    <span><h5 class="text-1xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Sample 2 Description<br>Lorem ipsum dolor sit amet. Eos itaque cumque sit ducimus nemo in laudantium architecto ut blanditiis omnis non voluptas ipsa. Sit vero placeat rem earum autem quo commodi voluptas.</h5></span>
-                                </div>
-                            </div>
-                            <div class="max-w-lg bg-white p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up">
-                                <a href="#">
-                                    <img class="mb-2 rounded-t-lg h-48 w-full" src="../img/projects/sample3.png" alt="product image" />
-                                </a>
-                                <div class="px-5 pb-2">
-                                    <span><h5 class="text-1xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Sample 3 Description<br>Lorem ipsum dolor sit amet. Eos itaque cumque sit ducimus nemo in laudantium architecto ut blanditiis omnis non voluptas ipsa. Sit vero placeat rem earum autem quo commodi voluptas.</h5></span>
-                                </div>
-                            </div>
-                            <div class="max-w-lg bg-white p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up">
-                                <a href="#">
-                                    <img class="mb-2 rounded-t-lg h-48 w-full" src="../img/projects/sample1.png" alt="product image" />
-                                </a>
-                                <div class="px-5 pb-2">
-                                    <span><h5 class="text-1xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Sample 1 Description<br>Lorem ipsum dolor sit amet. Eos itaque cumque sit ducimus nemo in laudantium architecto ut blanditiis omnis non voluptas ipsa. Sit vero placeat rem earum autem quo commodi voluptas.</h5></span>
-                                </div>
-                            </div>
-                            <div class="max-w-lg bg-white p-0 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700" data-aos="flip-up">
-                                <a href="#">
-                                    <img class="mb-2 rounded-t-lg h-48 w-full" src="../img/projects/sample2.png" alt="product image" />
-                                </a>
-                                <div class="px-5 pb-2">
-                                    <span><h5 class="text-1xl lg:text-md indent-3 font-semibold tracking-tight text-gray-900 dark:text-white">Sample 2 Description<br>Lorem ipsum dolor sit amet. Eos itaque cumque sit ducimus nemo in laudantium architecto ut blanditiis omnis non voluptas ipsa. Sit vero placeat rem earum autem quo commodi voluptas.</h5></span>
-                                </div>
-                            </div>
-                        </div>                  
+                            </div>                 
                     </div>
                 </div>
             </section>
         </header>
-        <footer>
+        <footer class="bottom-0">
             <div class="p-5 text-center">
                 <span id="copyrights" class="font-semibold text-gray-600 italic"></span>
             </div>
