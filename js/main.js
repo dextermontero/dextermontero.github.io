@@ -58,11 +58,6 @@ window.addEventListener('load', () => {
 
 $(document).ready(function(){
 
-    $('#download_cv').click(function(e){
-        e.preventDefault();
-        alert('Download CV is under development');
-    })
-
     $(".filter-button").click(function(){
         var value = $(this).attr('data-filter');
 
