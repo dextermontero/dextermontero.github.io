@@ -13,9 +13,9 @@
     <link rel="shortcut icon" href="./img/ico/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="bg-neutral-200 dark:text-white text-gray-700">
+<body class="bg-neutral-200 dark:text-white text-gray-700 bg-cover bg-center max-h-[100%]" background="img/cover/cover.jpg">
     <div class="flex flex-col">
-        <div class="bg-cover bg-center max-h-[100%]" style="background-image:url('./img/cover/cover.jpg')">
+        <div>
             <div id="navbar" class="bg-neutral-50 lg:bg-transparent">
                 <nav class="container mx-auto flex flex-wrap justify-between lg:justify-start items-center transition duration-150">
                     <a href="index.html" class="p-5">
@@ -68,8 +68,9 @@
                             </a>
                         </div>
                     </div>
-                    <div class="mt-10">
+                    <div class="xl:-mt-[13rem]">
                         <div class="container mx-auto w-9/12 text-center">
+                            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_iorpbol0.json"  background="transparent"  speed="2"  loop  autoplay></lottie-player>
                             <h2 class=" font-bold text-4xl xl:font-bold xl:text-4xl 2xl:font-extrabold 2xl:text-5xl shadow-sm dark:text-white text-gray-300  mb-5">Technologies & Tools</h2>
                             <div class="grid grid-cols-6 gap-2 items-center">
                                 <button class="rounded-full h-14 w-14 bg-orange-600 shadow-md border-4 border-orange-600 hover:border-4 hover:border-white transi duration-300 ease-in-out">
@@ -110,13 +111,12 @@
                     </div>
                 </div>
             </div>
-            <div class="md:mt-[20.6rem]">
-            </div>
         </div>
     </div> 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
 </html>
 
