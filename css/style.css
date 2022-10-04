@@ -579,8 +579,8 @@ video {
   margin-top: -15rem;
 }
 
-.mt-56 {
-  margin-top: 14rem;
+.mt-44 {
+  margin-top: 11rem;
 }
 
 .mt-5 {
@@ -619,16 +619,12 @@ video {
   margin-left: 0.25rem;
 }
 
-.-mt-\[10rem\] {
-  margin-top: -10rem;
+.mt-20 {
+  margin-top: 5rem;
 }
 
-.-mt-\[12rem\] {
-  margin-top: -12rem;
-}
-
-.-mt-\[13rem\] {
-  margin-top: -13rem;
+.mt-56 {
+  margin-top: 14rem;
 }
 
 .block {
@@ -675,8 +671,36 @@ video {
   height: 14rem;
 }
 
+.h-\[100\%\] {
+  height: 100%;
+}
+
+.h-\[150\%\] {
+  height: 150%;
+}
+
+.h-\[150rem\] {
+  height: 150rem;
+}
+
+.h-\[auto\] {
+  height: auto;
+}
+
+.h-\[fa-automobile\] {
+  height: fa-automobile;
+}
+
+.h-auto {
+  height: auto;
+}
+
 .max-h-\[100\%\] {
   max-height: 100%;
+}
+
+.max-h-96 {
+  max-height: 24rem;
 }
 
 .w-12 {
@@ -982,8 +1006,26 @@ video {
   background-size: cover;
 }
 
+.bg-auto {
+  background-size: auto;
+}
+
 .bg-center {
   background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .p-5 {
@@ -1417,6 +1459,10 @@ video {
 @media (min-width: 1280px) {
   .xl\:-mt-\[13rem\] {
     margin-top: -13rem;
+  }
+
+  .xl\:-mt-\[8rem\] {
+    margin-top: -8rem;
   }
 
   .xl\:grid-cols-2 {
