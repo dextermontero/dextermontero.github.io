@@ -579,8 +579,8 @@ video {
   margin-top: -15rem;
 }
 
-.mt-56 {
-  margin-top: 14rem;
+.mt-44 {
+  margin-top: 11rem;
 }
 
 .mt-5 {
@@ -619,16 +619,12 @@ video {
   margin-left: 0.25rem;
 }
 
-.-mt-\[10rem\] {
-  margin-top: -10rem;
+.mt-20 {
+  margin-top: 5rem;
 }
 
-.-mt-\[12rem\] {
-  margin-top: -12rem;
-}
-
-.-mt-\[13rem\] {
-  margin-top: -13rem;
+.mt-56 {
+  margin-top: 14rem;
 }
 
 .block {
@@ -1417,6 +1413,10 @@ video {
 @media (min-width: 1280px) {
   .xl\:-mt-\[13rem\] {
     margin-top: -13rem;
+  }
+
+  .xl\:-mt-\[8rem\] {
+    margin-top: -8rem;
   }
 
   .xl\:grid-cols-2 {
