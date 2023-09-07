@@ -14,14 +14,14 @@ $(window).scroll(function(){
     }
 });
 
-/* window.addEventListener('DOMContentLoaded', event => {
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
-    const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('.nav-link')
-    );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        navbarToggler.click();
-    });
+const year = document.querySelector('#year')
+const d = new Date();
+let year2 = 2022;
+let year3 = d.getFullYear();
 
-}); */
+
+if(year2 === year3){
+    year.innerHTML = year2;
+}else{
+    year.innerHTML = year2 + ' - ' + year3;
+}
