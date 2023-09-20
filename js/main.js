@@ -1,16 +1,16 @@
 $(window).change(function() {
     if ($(this). scrollTop() > 1) {
-        $('#navbar').addClass('bg-gray-300');
+        $('.navbar').addClass('bg-gray-300');
     } else {
-        $('#navbar').removeClass('bg-gray-300');
+        $('.navbar').removeClass('bg-gray-300');
     }
 });
 
 $(window).scroll(function(){
     if ($(this). scrollTop() > 1) {
-        $('#navbar').addClass('bg-gray-300');
+        $('.navbar').addClass('bg-gray-300');
     } else {
-        $('#navbar').removeClass('bg-gray-300');
+        $('.navbar').removeClass('bg-gray-300');
     }
 });
 
