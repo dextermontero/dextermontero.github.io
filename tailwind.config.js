@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './**/*.{html,js}'
+    './**/*.{html,js}',
+    "./flowbite/**/*.js"
   ],
   theme: {
     extend: {
@@ -17,9 +18,14 @@ module.exports = {
         "orange-800" : "#9a3412",
         "orange-900" : "#7c2d12",
         "orange-950" : "#431407",
-      }
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif']
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+]
 }
 
