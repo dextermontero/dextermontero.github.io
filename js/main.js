@@ -1,4 +1,4 @@
-$(window).change(function() {
+/* $(window).change(function() {
     if ($(this). scrollTop() > 1) {
         $('.navbar').addClass('bg-gray-300');
     } else {
@@ -12,7 +12,7 @@ $(window).scroll(function(){
     } else {
         $('.navbar').removeClass('bg-gray-300');
     }
-});
+}); */
 
 const year = document.querySelector('#year')
 const d = new Date();
